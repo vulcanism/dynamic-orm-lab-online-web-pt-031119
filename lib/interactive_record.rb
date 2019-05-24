@@ -26,4 +26,8 @@ class InteractiveRecord
     end
   end
   
+  self.attr_accssor.each do |col_name|
+    attr_accessor col_name.to_sym
+  end
+  
 end
